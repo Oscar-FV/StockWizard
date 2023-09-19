@@ -2,7 +2,7 @@ import { Button, Checkbox, Input } from "@material-tailwind/react";
 
 export default function Login() {
   return (
-    <div>
+    <>
       <div className="grid grid-cols-3 h-screen">
         <div className="font-titles col-span-2 bg-details-light flex justify-center items-center">
           <div className="font-titles">
@@ -51,6 +51,6 @@ export default function Login() {
             </form>
         </div>
       </div>
-    </div>
+    </>
   );
 }
